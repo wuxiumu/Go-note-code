@@ -24,15 +24,15 @@ Referrer-Policy的作用就是为了控制请求头中referrer的内容，目前
 目前Referrer-Policy只包含以下几种值：
 ```
 enum ReferrerPolicy {
-"",
-"no-referrer",
-"no-referrer-when-downgrade",
-"same-origin",
-"origin",
-"strict-origin",
-"origin-when-cross-origin",
-"strict-origin-when-cross-origin",
-"unsafe-url"
+    "",
+    "no-referrer",
+    "no-referrer-when-downgrade",
+    "same-origin",
+    "origin",
+    "strict-origin",
+    "origin-when-cross-origin",
+    "strict-origin-when-cross-origin",
+    "unsafe-url"
 };
 ```
 
